@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head> 
+<body>
+
+  <style>
+     .subs_button{
+      background-color: rgb(221, 21, 21);
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 17px;
+      padding-right: 17px;
+      color: white;
+      border: none;
+     border-radius: 2px;
+     cursor: pointer;
+     margin-right: 8px;
+     transition: opacity 0.15s;
+     }
+
+     .subs_button:hover{
+      opacity: 0.8;
+     }
+
+     .subs_button:active{
+      opacity: 0.5;
+     }
+  
+    .join-btn{
+      border-color: rgb(41, 118, 211);
+      border-style: solid;
+      color:rgb(41, 118, 211);
+      height: 36px;
+      width: 62px;
+      background-color: white;
+      border-width: 1px;
+      border-radius: 2px;
+      cursor: pointer;
+      margin-right: 9px;  
+      transition: background-color .15s, color 0.15s;
+      }
+
+      .join-btn:hover{
+        color: white;
+        background-color: rgb(41, 118, 211);
+      }
+
+    .join-btn:active{
+      opacity: 0.7;
+    }
+  
+    .twt-btn{
+      padding: 17px;
+      color:white;
+      background-color: rgb(19, 132, 232);
+      border: none;
+      
+      /* border-radius:18px; */
+      font-weight: bold;
+      cursor: pointer;
+      font-size: 10px;
+      transition: box-shadow .15s;
+      box-shadow: 3px 3px 5px black;
+      border-radius: 20px;
+
+    }
+
+    .twt-btn:active{
+
+       padding: 16px;
+      box-shadow: none;
+    }
+  
+    .rn{
+      cursor: pointer;
+      background-color: black;
+      color: white;
+      height: 40px;
+      width: 130px;
+      border: none;
+      margin-left: 9px;
+      margin-right: 9px;
+    }
+  
+    .ama{
+      background-color: rgb(255, 216, 20);
+      border: none;
+      width: 160px;
+      height: 36px;
+      border-radius: 17px;
+      color: black;    
+        cursor: pointer;
+
+      font-weight: bold;
+    }
+  
+    .su{
+      background-color: rgb(46, 164, 79);
+      border: none;
+      border-radius: 5px;
+      height: 40px;
+      width: 110px;
+      cursor: pointer;
+      color: white;
+      font-weight: bold;
+      font-size: 16px;
+      margin-left: 9px;
+    }
+  
+      .boot{
+        background-color: rgb(121, 82, 179);
+        border: none;
+        height: 40px;
+        width: 100px;
+        color: white;
+        margin-top: 9px;
+        border-radius: 3px;
+      }
+  
+  .bd{
+    background-color: white;
+    height: 40px;
+    width: 110px;
+    border-color: rgb(108,117,125);
+    color: rgb(108,117,125);
+    border-style: solid;
+    font-weight: bold;
+    border-radius: 3px;
+    margin-left: 8px;
+    border-width: 1px;
+  }
+
+  .linkdn{
+    color: white;
+    background-color: rgb(10,102,194);
+    height: 40px;
+    width: 220px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 7px;
+    margin-left: 9px;
+    font-weight: bold;
+  }
+
+  .save{
+    color: rgb(10,102,194);
+    background-color: white;
+    height: 40px;
+    width: 100px;
+    border-color: rgb(10,102,194);
+    border-radius: 20px;
+    margin-top: 7px;
+    margin-left: 9px;
+    font-weight: bold;
+    border-width: 1px;
+  }
+
+  .buy{
+    background-color: rgb(255, 164, 28);
+    border: none;
+    width: 160px;
+    height: 36px;
+    border-radius: 17px;
+    color: black;    
+      cursor: pointer;
+    margin-left: 9px;
+    font-weight: bold;
+  }
+
+  .div1{
+    margin-top: 60px;
+    margin-bottom:25px;
+  }
+
+  .p1{
+    margin-top: 30px;
+    font-size: 30px;
+
+  }
+  .p2{
+    color: rgb(0,118,0);
+    font-weight: bold;
+    font-size: 19px;
+  }
+
+  .str{
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-top: 15px;
+    color: white;
+    background-color: green;
+    transition: padding 1s;
+    border: none;
+}
+  .str:hover{
+    padding-right: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+
+  .d1{
+    margin-top: 15px;
+  }
+
+  .one{
+    padding: 8px 16px 8px 16px;
+    margin-left: 19px;
+    border: none;
+    margin-right: 19px;
+    cursor: pointer;
+    transition: padding .40s,margin 0.40s;
+    background-color: green;
+    color: white;
+    font-style: bold;
+
+  }
+  .one:hover{
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+</style>
+
+  <button class="subs_button">
+    SUBSCRIBE NOW
+  </button>
+  <button class="join-btn">
+    JOIN
+  </button>
+  <button class="twt-btn">
+    Tweet
+  </button>
+
+  <button class="rn">
+    Request now
+  </button>
+
+  <button class="ama">
+    Add to Cart
+  </button>
+
+  <button class="su">
+    Sign up
+  </button>
+
+  <button class="boot">
+    Get started
+  </button>
+
+  <button class="bd">
+    Download
+  </button>
+
+  <button class="linkdn">
+    Apply to company website
+  </button>
+
+  <button class="save">
+Save  </button>
+
+<div class="div1">
+    <a href="">Back to Amazon</a>
+    <b><p class="p1">Nike Black Running Shoes</p></b>
+    <p class="p2">$39 - in stock</p>
+    <p>Free delivery tomorrow</p>
+    <button class="ama">
+      Add to cart
+    </button>
+
+    <button class="buy">
+      Buy now
+    </button>
+   
+  </div>
+    <div>
+    <button>Back</button>
+    <a href="">1</a>
+    <a href="">2</a>
+    <a href="">3</a>
+    <a href="">4</a>
+    <a href="">5</a>
+    <button class="">
+      Next
+    </button>
+  </div>
+
+  <!-- <button class="str">
+    strech
+  </button> -->
+  <div class="d1">
+  <button class="one">
+    One
+  </button>
+  <button class="one">
+    two
+  </button>
+  <button class="one">
+    three
+  </button>
+</div>
+</body>
+</html>
